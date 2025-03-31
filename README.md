@@ -1,12 +1,66 @@
-# React + Vite
+# Image Editor Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web application allows users to search for images from Unsplash, edit them using Fabric.js, and download the modified images.
 
-Currently, two official plugins are available:
+## Features
+- Search for images using keywords
+- Edit images with text, shapes, and resizing options
+- Download the modified images
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Use
 
-## Expanding the ESLint configuration
+### Step 1: Search for an Image
+1. Enter a keyword (e.g., "nature") in the search bar.
+2. Click the "Search" button to fetch images from Unsplash.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Search Screenshot](./assets/search-screen.png)
+
+### Step 2: Select & Edit an Image
+1. Click "Edit" on any image.
+2. The image will open in the editor (Fabric.js Canvas).
+3. Use the editing tools to:
+   - 📝 Add Text (Editable & Resizable)
+   - 🔵 Add Shapes (Rectangle, Circle, Triangle)
+   - 🎨 Modify Shapes (Drag & Resize)
+
+![Edit Screenshot](./assets/edit-screen.png)
+
+### Step 3: Download the Edited Image
+1. Click the "Download" button to save your modified image.
+
+![Download Screenshot](./assets/first.png)
+![Download Screenshot](./assets/second.png)
+![Download Screenshot](./assets/third.png)
+
+
+## Technologies Used
+- **React** (Frontend Framework)
+- **Vite** (Development Environment)
+- **Tailwind CSS** (Styling)
+- **Fabric.js** (Canvas Editing)
+- **Unsplash API** (Image Search)
+
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/image-editor.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd image-editor
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+## Contributing
+Feel free to contribute by submitting a pull request or opening an issue!
+
+## License
+This project is licensed under the MIT License.
