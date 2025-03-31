@@ -28,9 +28,9 @@ This web application allows users to search for images from Unsplash, edit them 
 ### Step 3: Download the Edited Image
 1. Click the "Download" button to save your modified image.
 
-![Download Screenshot](./assets/first.png)
-![Download Screenshot](./assets/second.png)
-![Download Screenshot](./assets/third.png)
+![Download Screenshot](./first.png)
+![Download Screenshot](./second.png)
+![Download Screenshot](./third.png)
 
 
 ## Technologies Used
